@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	word-wrap: break-word;
+  }
+.back{
+	width: 100%;
+	height: 50vh;
+	min-height: 700px;
+	background-image:url("../img/our room.jpg");
+	background-size: cover;
+	position: relative;
+}
+.navi a{
+	color:#FFF;
+	font-size:22px;
+	font-family:ralwey;
+	transition: 0.4s;}
+.navi a:hover{
+	color:#fd7e14;
+}
+.en{
+	font-size:80px;
+	font-family: ralwey;
+	color: #FFFFFF;
+	margin-top: 230px;
+	text-align: center;
+	font-weight: bolder;
+}
+.btn2{
+	width:120px;
+	height:40px;
+	background-color:#FD7E14;
+	font-family:poppins;
+	border-radius: 50px;
+	color: #000;
+	overflow: hidden;
+	border: none;
+	transition: 0.4s;
+}
+.btn5{
+	width:180px;
+	height:50px;
+	background-color:#FD7E14;
+	margin-top:70px;
+	font-family:poppins;
+	overflow: hidden;
+	border-radius: 50px;
+	color: #000;
+	border: none;
+	transition: 0.4s;
+}
+.txt{
+	width: 90% !important;
+	margin: auto;
+	padding-top:20px;
+}
+.foot{
+	padding-top:50px;
+}
+.foot ul{
+	list-style-type: none;
+}
+.foot li{
+	margin-top: 15px;
+}
+.foot a{
+	text-decoration: none;
+	color:#8D8D8D;
+	font-family:poppins;
+	transition:0.3s;
+}
+.foot a:hover{
+	color:#FFFFFF;
+}
+.inpt{
+	width: 96%;
+	height: 40px;
+	border-bottom-color:#939393;
+	background-color: transparent;
+	outline-color: #FFFFFF;
+	color: #FFFFFF;
+	padding-left:10px;
+}
+.pla{
+	margin-left:-28px;
+}
+.icn{
+	color: #FFFFFF;
+	padding:5px;
+	font-size:18px;
+	transition:0.4s;
+}
+.icn:hover{
+	background-color:#FF7400;
+	border-radius:100%;
+}
+.pic3{
+	margin: auto;
+	width:80px;
+	height: 80px;
+	border-radius: 100%;
+}
+.reveal{
+  position: relative;
+  transform: translateY(140px);
+  opacity: 0;
+  transition: 1.2s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
